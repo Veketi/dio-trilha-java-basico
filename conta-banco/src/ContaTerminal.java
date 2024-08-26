@@ -8,5 +8,10 @@ public class ContaTerminal {
         Exibir a mensagem da conta criada.
         */
         Scanner input = new Scanner(System.in);
+        System.out.println("\tBanco DIO\nBem-vindo ao Banco DIO! Para criar a sua conta complete o cadastro abaixo:\nDigite o número da sua conta: ");
+        System.out.println("Digite o número da agência: ");
+        System.out.println("Digite o seu nome completo: ");
+        System.out.println("Digite o saldo bancário: ");
+        
     }
 }
