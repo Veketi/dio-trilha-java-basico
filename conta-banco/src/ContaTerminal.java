@@ -9,9 +9,12 @@ public class ContaTerminal {
         */
         Scanner input = new Scanner(System.in);
         System.out.println("\tBanco DIO\nBem-vindo ao Banco DIO! Para criar a sua conta complete o cadastro abaixo:\nDigite o número da sua conta: ");
+        int numeroConta = input.nextInt();
         System.out.println("Digite o número da agência: ");
+        String numeroAgencia = input.next();
         System.out.println("Digite o seu nome completo: ");
+        String nomeCliente = input.next();
         System.out.println("Digite o saldo bancário: ");
-        
+        Double saldoConta = input.nextDouble();
     }
 }
